@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54bcdbaa-7e97-488a-b8ac-b2bd5784eb8e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BookPublisher$ss.coverage" NAME="ss Coverage Results" MODIFIED="1563776939320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="book_publisher@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="book_publisher@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="book_publisher@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="book_publisher: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="book_publisher@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="book_publisher: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="django_session: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app01/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BookPublisher/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+              <folding>
+                <element signature="e#647#688#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app01/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="54" selection-start-column="54" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../zhumm/venv/Lib/site-packages/django/http/response.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="441" selection-start-line="441" selection-end-line="441" />
+              <folding>
+                <element signature="e#817#821#0" />
+                <element signature="e#866#10883#0" />
+                <element signature="e#866#1086#1" />
+                <element signature="e#1202#2360#0" />
+                <element signature="e#1202#1272#0" />
+                <element signature="e#1501#1571#0" />
+                <element signature="e#1767#2075#0" />
+                <element signature="e#2190#2316#0" />
+                <element signature="e#2225#2315#0" />
+                <element signature="e#2413#2668#0" />
+                <element signature="e#2496#2557#0" />
+                <element signature="e#2740#2767#0" />
+                <element signature="e#2814#3180#0" />
+                <element signature="e#3030#3140#0" />
+                <element signature="e#3240#3261#0" />
+                <element signature="e#3304#3651#0" />
+                <element signature="e#3389#3451#0" />
+                <element signature="e#3471#3614#0" />
+                <element signature="e#3814#3886#0" />
+                <element signature="e#3966#5547#0" />
+                <element signature="e#3966#4211#1" />
+                <element signature="e#4585#5175#0" />
+                <element signature="e#4613#4876#0" />
+                <element signature="e#4660#4743#0" />
+                <element signature="e#4786#4876#0" />
+                <element signature="e#4911#5175#0" />
+                <element signature="e#4958#5041#0" />
+                <element signature="e#5084#5175#0" />
+                <element signature="e#5222#5526#0" />
+                <element signature="e#5254#5401#0" />
+                <element signature="e#5436#5526#0" />
+                <element signature="e#5599#5782#0" />
+                <element signature="e#5827#5919#0" />
+                <element signature="e#5964#6003#0" />
+                <element signature="e#6047#6136#0" />
+                <element signature="e#6198#6227#0" />
+                <element signature="e#6280#6342#0" />
+                <element signature="e#6493#8300#0" />
+                <element signature="e#6493#6808#1" />
+                <element signature="e#6920#7629#0" />
+                <element signature="e#6979#7556#0" />
+                <element signature="e#7150#7209#0" />
+                <element signature="e#7734#8010#0" />
+                <element signature="e#7886#8010#0" />
+                <element signature="e#8348#8457#0" />
+                <element signature="e#8531#8646#0" />
+                <element signature="e#8713#8835#0" />
+                <element signature="e#8919#9674#0" />
+                <element signature="e#8995#9063#0" />
+                <element signature="e#9680#9747#0" />
+                <element signature="e#9997#10230#0" />
+                <element signature="e#10049#10137#0" />
+                <element signature="e#10270#10345#0" />
+                <element signature="e#10376#10380#0" />
+                <element signature="e#10410#10494#0" />
+                <element signature="e#10500#10567#0" />
+                <element signature="e#10661#10673#0" />
+                <element signature="e#10707#10719#0" />
+                <element signature="e#10753#10765#0" />
+                <element signature="e#10808#10883#0" />
+                <element signature="e#10928#12884#0" />
+                <element signature="e#10928#11053#1" />
+                <element signature="e#11140#11293#0" />
+                <element signature="e#11327#11549#0" />
+                <element signature="e#11392#11549#0" />
+                <element signature="e#11584#11713#0" />
+                <element signature="e#11845#11877#0" />
+                <element signature="e#11937#12492#0" />
+                <element signature="e#12106#12321#0" />
+                <element signature="e#12224#12321#0" />
+                <element signature="e#12526#12554#0" />
+                <element signature="e#12594#12642#0" />
+                <element signature="e#12672#12696#0" />
+                <element signature="e#12730#12749#0" />
+                <element signature="e#12783#12794#0" />
+                <element signature="e#12837#12884#0" />
+                <element signature="e#12938#14360#0" />
+                <element signature="e#12938#13236#1" />
+                <element signature="e#13331#13566#0" />
+                <element signature="e#13400#13459#0" />
+                <element signature="e#13613#13777#0" />
+                <element signature="e#13647#13741#0" />
+                <element signature="e#13834#13877#0" />
+                <element signature="e#13957#13991#0" />
+                <element signature="e#14046#14224#0" />
+                <element signature="e#14258#14287#0" />
+                <element signature="e#14321#14360#0" />
+                <element signature="e#14410#14936#0" />
+                <element signature="e#14410#14478#1" />
+                <element signature="e#14555#14936#0" />
+                <element signature="e#14594#14819#0" />
+                <element signature="e#14989#15781#0" />
+                <element signature="e#15095#15430#0" />
+                <element signature="e#15515#15781#0" />
+                <element signature="e#15595#15781#0" />
+                <element signature="e#15842#15859#0" />
+                <element signature="e#15929#15946#0" />
+                <element signature="e#15998#16364#0" />
+                <element signature="e#16066#16161#0" />
+                <element signature="e#16234#16364#0" />
+                <element signature="e#16415#16432#0" />
+                <element signature="e#16481#16498#0" />
+                <element signature="e#16548#16565#0" />
+                <element signature="e#16616#17125#0" />
+                <element signature="e#16703#16817#0" />
+                <element signature="e#16851#17125#0" />
+                <element signature="e#16930#17125#0" />
+                <element signature="e#17170#17187#0" />
+                <element signature="e#17239#17256#0" />
+                <element signature="e#17289#17293#0" />
+                <element signature="e#17334#18526#0" />
+                <element signature="e#17334#17925#1" />
+                <element signature="e#18054#18526#0" />
+                <element signature="e#18106#18258#0" />
+                <element signature="e#18139#18244#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>edit_publisher</find>
+      <find>pub_sys/add_publisher</find>
+      <find>/add_publisher/</find>
+      <find>handler</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/app01/apps.py" />
+        <option value="$PROJECT_DIR$/static/js/add.js" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/ddd.html" />
+        <option value="$PROJECT_DIR$/templates/book_publisher.html" />
+        <option value="$PROJECT_DIR$/file_zhu.txt" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/templates/back/author_system.py" />
+        <option value="$PROJECT_DIR$/app01/models.py" />
+        <option value="$PROJECT_DIR$/templates/add_book.html" />
+        <option value="$PROJECT_DIR$/templates/edit_author.html" />
+        <option value="$PROJECT_DIR$/templates/edit_book.html" />
+        <option value="$PROJECT_DIR$/templates/imginfo.html" />
+        <option value="$PROJECT_DIR$/templates/edit_publisher.html" />
+        <option value="$PROJECT_DIR$/templates/add_publisher.html" />
+        <option value="$PROJECT_DIR$/templates/add_author.html" />
+        <option value="$PROJECT_DIR$/templates/public.html" />
+        <option value="$PROJECT_DIR$/templates/page.html" />
+        <option value="$PROJECT_DIR$/templates/use_dropdown.html" />
+        <option value="$PROJECT_DIR$/templates/dropdown_list.html" />
+        <option value="$PROJECT_DIR$/templates/nav.html" />
+        <option value="$PROJECT_DIR$/templates/test_request.html" />
+        <option value="$PROJECT_DIR$/app01/templatetags/my_tags.py" />
+        <option value="$PROJECT_DIR$/templates/author_system.html" />
+        <option value="$PROJECT_DIR$/templates/publisher_system.html" />
+        <option value="$PROJECT_DIR$/templates/book_system.html" />
+        <option value="$PROJECT_DIR$/app02/views.py" />
+        <option value="$PROJECT_DIR$/app02/urls.py" />
+        <option value="$PROJECT_DIR$/app01/xx.py" />
+        <option value="$PROJECT_DIR$/templates/index3.html" />
+        <option value="$PROJECT_DIR$/BookPublisher/__init__.py" />
+        <option value="$PROJECT_DIR$/app01/urls.py" />
+        <option value="$PROJECT_DIR$/BookPublisher/settings.py" />
+        <option value="$PROJECT_DIR$/BookPublisher/urls.py" />
+        <option value="$PROJECT_DIR$/ss.py" />
+        <option value="$PROJECT_DIR$/app01/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BookPublisher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookPublisher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookPublisher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookPublisher" type="462c0819:PsiDirectoryNode" />
+              <item name="app01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookPublisher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookPublisher" type="462c0819:PsiDirectoryNode" />
+              <item name="BookPublisher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookPublisher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookPublisher" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookPublisher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookPublisher" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CookieSessionTest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\DjangoItem\BookPublisher" />
+      <recent name="D:\python\DjangoItem\BookPublisher\app02" />
+      <recent name="D:\python\DjangoItem\BookPublisher\app01" />
+      <recent name="D:\python\DjangoItem\BookPublisher\static\js" />
+      <recent name="D:\python\DjangoItem\BookPublisher\static\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\DjangoItem\BookPublisher\templates\back" />
+      <recent name="D:\python\DjangoItem\BookPublisher\templates" />
+      <recent name="D:\python\DjangoItem\BookPublisher\templates\publisher_system" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.ss">
+    <configuration name="ss" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BookPublisher" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ss.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BookPublisher" type="Python.DjangoServer" factoryName="Django server">
+      <module name="BookPublisher" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="BookPublisher.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python36\python36.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8068" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ss" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54bcdbaa-7e97-488a-b8ac-b2bd5784eb8e" name="Default Changelist" comment="" />
+      <created>1560394723977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560394723977</updated>
+      <workItem from="1560394727526" duration="21507000" />
+      <workItem from="1560437189811" duration="4140000" />
+      <workItem from="1560472481057" duration="25973000" />
+      <workItem from="1560562012489" duration="13095000" />
+      <workItem from="1560654875491" duration="4705000" />
+      <workItem from="1560733196310" duration="25208000" />
+      <workItem from="1560780713349" duration="1334000" />
+      <workItem from="1560817917658" duration="2639000" />
+      <workItem from="1560838685982" duration="5668000" />
+      <workItem from="1560904539194" duration="14532000" />
+      <workItem from="1560949695813" duration="4418000" />
+      <workItem from="1560990939074" duration="7957000" />
+      <workItem from="1561076972814" duration="12824000" />
+      <workItem from="1561173975558" duration="22090000" />
+      <workItem from="1561279898009" duration="6767000" />
+      <workItem from="1561338733824" duration="4640000" />
+      <workItem from="1561388722925" duration="1895000" />
+      <workItem from="1561422406956" duration="2577000" />
+      <workItem from="1561509194905" duration="2777000" />
+      <workItem from="1561554671661" duration="598000" />
+      <workItem from="1561624228132" duration="26000" />
+      <workItem from="1561702971143" duration="995000" />
+      <workItem from="1561711165679" duration="1941000" />
+      <workItem from="1561734609033" duration="118000" />
+      <workItem from="1561773112701" duration="708000" />
+      <workItem from="1561948651967" duration="6185000" />
+      <workItem from="1561972683174" duration="605000" />
+      <workItem from="1561975415090" duration="1083000" />
+      <workItem from="1561982929463" duration="50000" />
+      <workItem from="1561983915491" duration="616000" />
+      <workItem from="1561989297075" duration="218000" />
+      <workItem from="1562120745662" duration="431000" />
+      <workItem from="1562152193860" duration="2024000" />
+      <workItem from="1562206263686" duration="31000" />
+      <workItem from="1562290820612" duration="925000" />
+      <workItem from="1562318748716" duration="881000" />
+      <workItem from="1562551975287" duration="2547000" />
+      <workItem from="1562984984120" duration="1399000" />
+      <workItem from="1563077455371" duration="1375000" />
+      <workItem from="1563439113661" duration="679000" />
+      <workItem from="1563775868978" duration="1358000" />
+      <workItem from="1563777635043" duration="1638000" />
+      <workItem from="1563779293120" duration="1018000" />
+      <workItem from="1564140263187" duration="609000" />
+      <workItem from="1565777420214" duration="3210000" />
+      <workItem from="1565829738088" duration="947000" />
+      <workItem from="1565931551072" duration="491000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="217452000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17217484" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16143012" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.17984831" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" visible="true" weight="0.22426869" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.04904051" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/back/author_system.py" />
+    <entry file="das://31086a71-14c5-4de1-aa5c-a1413a0453fe/schema/book_publisher/table/app01_author_books">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://31086a71-14c5-4de1-aa5c-a1413a0453fe/schema/book_publisher/table/app01_author">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/dsb.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/back/publisher_system.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/imginfo.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/use_dropdown.html" />
+    <entry file="file://C:/Python36/Lib/site-packages/django/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dropdown_list.html" />
+    <entry file="file://$PROJECT_DIR$/app01/templatetags/my_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/edit_publisher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookPublisher/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/django/urls/resolvers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="498" lean-forward="true" selection-start-line="498" selection-end-line="498" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-194855973/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/xx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://31086a71-14c5-4de1-aa5c-a1413a0453fe/schema/book_publisher/table/app01_book">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://31086a71-14c5-4de1-aa5c-a1413a0453fe/schema/book_publisher/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test_request.html" />
+    <entry file="file://$PROJECT_DIR$/app02/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding>
+            <element signature="e#648#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://31086a71-14c5-4de1-aa5c-a1413a0453fe/schema/book_publisher/table/orm01_publisher">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+          <folding>
+            <element signature="e#1512#2029#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/edit_author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/django/http/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="131" column="60" selection-start-line="131" selection-start-column="60" selection-end-line="131" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/edit_book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app02/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://31086a71-14c5-4de1-aa5c-a1413a0453fe/schema/book_publisher/table/app01_publisher">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookPublisher/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2470">
+          <caret line="130" column="16" selection-start-line="130" selection-end-line="130" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookPublisher/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/publisher_system.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="56" column="82" selection-start-line="56" selection-start-column="82" selection-end-line="56" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add_publisher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_zhu33.txt" />
+    <entry file="file://$PROJECT_DIR$/templates/author_system.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/book_system.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add_book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app02/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/public.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add_author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="97" selection-start-line="26" selection-start-column="97" selection-end-line="26" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zhumm/venv/Lib/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zhumm/venv/Lib/site-packages/django/views/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zhumm/venv/Lib/site-packages/django/template/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zhumm/venv/Lib/site-packages/django/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BookPublisher/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="e#647#688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="54" selection-start-column="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zhumm/venv/Lib/site-packages/django/http/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="441" selection-start-line="441" selection-end-line="441" />
+          <folding>
+            <element signature="e#817#821#0" />
+            <element signature="e#866#10883#0" />
+            <element signature="e#866#1086#1" />
+            <element signature="e#1202#2360#0" />
+            <element signature="e#1202#1272#0" />
+            <element signature="e#1501#1571#0" />
+            <element signature="e#1767#2075#0" />
+            <element signature="e#2190#2316#0" />
+            <element signature="e#2225#2315#0" />
+            <element signature="e#2413#2668#0" />
+            <element signature="e#2496#2557#0" />
+            <element signature="e#2740#2767#0" />
+            <element signature="e#2814#3180#0" />
+            <element signature="e#3030#3140#0" />
+            <element signature="e#3240#3261#0" />
+            <element signature="e#3304#3651#0" />
+            <element signature="e#3389#3451#0" />
+            <element signature="e#3471#3614#0" />
+            <element signature="e#3814#3886#0" />
+            <element signature="e#3966#5547#0" />
+            <element signature="e#3966#4211#1" />
+            <element signature="e#4585#5175#0" />
+            <element signature="e#4613#4876#0" />
+            <element signature="e#4660#4743#0" />
+            <element signature="e#4786#4876#0" />
+            <element signature="e#4911#5175#0" />
+            <element signature="e#4958#5041#0" />
+            <element signature="e#5084#5175#0" />
+            <element signature="e#5222#5526#0" />
+            <element signature="e#5254#5401#0" />
+            <element signature="e#5436#5526#0" />
+            <element signature="e#5599#5782#0" />
+            <element signature="e#5827#5919#0" />
+            <element signature="e#5964#6003#0" />
+            <element signature="e#6047#6136#0" />
+            <element signature="e#6198#6227#0" />
+            <element signature="e#6280#6342#0" />
+            <element signature="e#6493#8300#0" />
+            <element signature="e#6493#6808#1" />
+            <element signature="e#6920#7629#0" />
+            <element signature="e#6979#7556#0" />
+            <element signature="e#7150#7209#0" />
+            <element signature="e#7734#8010#0" />
+            <element signature="e#7886#8010#0" />
+            <element signature="e#8348#8457#0" />
+            <element signature="e#8531#8646#0" />
+            <element signature="e#8713#8835#0" />
+            <element signature="e#8919#9674#0" />
+            <element signature="e#8995#9063#0" />
+            <element signature="e#9680#9747#0" />
+            <element signature="e#9997#10230#0" />
+            <element signature="e#10049#10137#0" />
+            <element signature="e#10270#10345#0" />
+            <element signature="e#10376#10380#0" />
+            <element signature="e#10410#10494#0" />
+            <element signature="e#10500#10567#0" />
+            <element signature="e#10661#10673#0" />
+            <element signature="e#10707#10719#0" />
+            <element signature="e#10753#10765#0" />
+            <element signature="e#10808#10883#0" />
+            <element signature="e#10928#12884#0" />
+            <element signature="e#10928#11053#1" />
+            <element signature="e#11140#11293#0" />
+            <element signature="e#11327#11549#0" />
+            <element signature="e#11392#11549#0" />
+            <element signature="e#11584#11713#0" />
+            <element signature="e#11845#11877#0" />
+            <element signature="e#11937#12492#0" />
+            <element signature="e#12106#12321#0" />
+            <element signature="e#12224#12321#0" />
+            <element signature="e#12526#12554#0" />
+            <element signature="e#12594#12642#0" />
+            <element signature="e#12672#12696#0" />
+            <element signature="e#12730#12749#0" />
+            <element signature="e#12783#12794#0" />
+            <element signature="e#12837#12884#0" />
+            <element signature="e#12938#14360#0" />
+            <element signature="e#12938#13236#1" />
+            <element signature="e#13331#13566#0" />
+            <element signature="e#13400#13459#0" />
+            <element signature="e#13613#13777#0" />
+            <element signature="e#13647#13741#0" />
+            <element signature="e#13834#13877#0" />
+            <element signature="e#13957#13991#0" />
+            <element signature="e#14046#14224#0" />
+            <element signature="e#14258#14287#0" />
+            <element signature="e#14321#14360#0" />
+            <element signature="e#14410#14936#0" />
+            <element signature="e#14410#14478#1" />
+            <element signature="e#14555#14936#0" />
+            <element signature="e#14594#14819#0" />
+            <element signature="e#14989#15781#0" />
+            <element signature="e#15095#15430#0" />
+            <element signature="e#15515#15781#0" />
+            <element signature="e#15595#15781#0" />
+            <element signature="e#15842#15859#0" />
+            <element signature="e#15929#15946#0" />
+            <element signature="e#15998#16364#0" />
+            <element signature="e#16066#16161#0" />
+            <element signature="e#16234#16364#0" />
+            <element signature="e#16415#16432#0" />
+            <element signature="e#16481#16498#0" />
+            <element signature="e#16548#16565#0" />
+            <element signature="e#16616#17125#0" />
+            <element signature="e#16703#16817#0" />
+            <element signature="e#16851#17125#0" />
+            <element signature="e#16930#17125#0" />
+            <element signature="e#17170#17187#0" />
+            <element signature="e#17239#17256#0" />
+            <element signature="e#17289#17293#0" />
+            <element signature="e#17334#18526#0" />
+            <element signature="e#17334#17925#1" />
+            <element signature="e#18054#18526#0" />
+            <element signature="e#18106#18258#0" />
+            <element signature="e#18139#18244#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

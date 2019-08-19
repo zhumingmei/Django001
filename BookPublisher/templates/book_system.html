@@ -1,0 +1,79 @@
+{% extends 'public.html' %}
+{% block book_active %}
+    active
+{% endblock %}
+
+{% block publish_active %}
+
+{% endblock %}
+
+
+{% block public %}
+    {% load static %}
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h1 class="page-header">爱心⭐相册</h1>
+
+        <div class="row placeholders">
+            <div class="col-xs-6 col-sm-3 placeholder">
+                <img src="{% static '/img/yichen.jpg' %}" width="200" height="200" class="img-responsive"
+                     alt="Generic placeholder thumbnail">
+                <h4>Mrs.dan001</h4>
+                <span class="text-muted">beautiful</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+                <img src="{% static '/img/IMG_0088.JPG' %}" width="200" height="200" class="img-responsive"
+                     alt="Generic placeholder thumbnail">
+                <h4>Mrs.dan002</h4>
+                <span class="text-muted">beautiful</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+                <img src="{% static '/img/IMG_0091.JPG' %}" width="200" height="200" class="img-responsive"
+                     alt="Generic placeholder thumbnail">
+                <h4>Mrs.dan003</h4>
+                <span class="text-muted">beautiful</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+                <img src="{% static '/img/yidan.JPEG' %}" width="200" height="200" class="img-responsive"
+                     alt="Generic placeholder thumbnail">
+                <h4>Mrs.dan004</h4>
+                <span class="text-muted">beautiful</span>
+            </div>
+        </div>
+        {#        <h2 class="sub-header">显示信息</h2>#}
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title" href="/book_system/">书籍列表</h3>
+            </div>
+            <div class="panel-body">
+                <a href="/add_book/" class="btn btn-primary">增加书籍</a>
+                {#     点击a标签就又发送了一次get请求 就会去找对应的url和地址#}
+                <table class="table table-striped table-hover">
+                    <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>ID</th>
+                        <th>书名</th>
+                        <th>出版社名字</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    {% for book in book_all %}
+                        <tr>
+                            <td>{{ forloop.counter }}</td>
+                            <td>{{ book.pk }}</td>
+                            <td>{{ book.title }}</td>
+                            <td>{{ book.pub.name }}</td>
+                            <td>
+                                <a href="/del_book/{{ book.id }}">删除</a>
+{#                                <a href="{% url 'editbook' %}/{{ book.id }}/">编辑</a>#}
+                                <a href="/edit_book/{{ book.id }}/">编辑</a>
+                            </td>
+                        </tr>
+                    {% empty %}
+                        <td>没有相关的数据</td>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}

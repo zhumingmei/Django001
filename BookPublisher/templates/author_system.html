@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作者管理系统</title>
+
+</head>
+<body>
+<form action="" method="post">
+    {% csrf_token %}
+    <table border="1">
+        <thead>
+        <tr>
+            <th>序号</th>
+            <th>作者</th>
+            <th>出版书籍</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for author in all_author %}
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{ author.name }}</td>
+                <td>
+                    {# author.books取得的是中间对象MangRealtedManager，再通过all方法取得book表的所有对象，再操作book表中的属性#}
+                    {% for book in author.books.all %}
+                        {% if forloop.last %}
+                            << {{ book.title }} >>
+                        {% else %}
+                            << {{ book.title }} >>、
+                        {% endif %}
+                    {% endfor %}
+                </td>
+                <td>
+                    <a href="/del_author/{{ author.pk }}">删除</a>
+                    <a href="/edit_author/{{ author.pk }}">编辑</a>
+                </td>
+            </tr>
+        {% endfor %}
+        <p>
+            <a href="/add_author/">增加作者</a>
+        </p>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>

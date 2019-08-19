@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="" method="post">
+    {% csrf_token %}
+    {#value是默认在输入框中的书名#}
+    <p>图书管理系统<input type="text" name="edit_book" value='{{ edit.title }}'>{{ error }}</p>
+    <select name="edit_publisher">
+        {% for pub in pub_all %}
+            {#循环遍历所有的出版社对象，出版社的对象和当前的book出的对象是同一个，说明是一个对象，选成默认的就可以#}
+            {% if edit.pub == pub %}
+                {#这是一个下拉列表框，此句只表示默认选中，也就是for循环中的对象都会走到#}
+                <option selected value="{{ pub.pk }}">{{ pub.name }}</option>
+            {% else %}
+                <option value="{{ pub.pk }}">{{ pub.name }}</option>
+            {% endif %}
+        {% endfor %}
+    </select>
+    <p><input type="submit"></p>
+</form>
+</body>
+</html>

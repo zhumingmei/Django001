@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {# 使用静态文件#}
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/plugins/bootstrap-3.3.7/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static '/css/dsb.css' %}">
+</head>
+<body>
+{# 使用组件 #}
+{% include 'nav.html' %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar">
+                <li class=" {% block publish_active %}active{% endblock %}"><a href="/publisher_system/">出版社列表 <span
+                        class="sr-only">(current)</span></a></li>
+                <li class="{% block book_active %}{% endblock %}"><a href="/book_system/">书籍列表 <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+        {% block public %}
+
+        {% endblock %}
+    </div>
+</div>
+</body>
+</html>

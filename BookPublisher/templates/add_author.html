@@ -1,0 +1,47 @@
+{% extends 'public.html' %}
+
+{% block public %}
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <h1 class="page-header">爱心⭐相册</h1>
+
+        <div class="row placeholders">
+            <div class="col-xs-6 col-sm-3 placeholder">
+                <img src="/static/img/yichen.jpg" width="200" height="200" class="img-responsive"
+                     alt="Generic placeholder thumbnail">
+                <h4>Mrs.dan001</h4>
+                <span class="text-muted">beautiful</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+                <img src="/static/img/IMG_0088.JPG" width="200" height="200" class="img-responsive"
+                     alt="Generic placeholder thumbnail">
+                <h4>Mrs.dan002</h4>
+                <span class="text-muted">beautiful</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+                <img src="/static/img/IMG_0091.JPG" width="200" height="200" class="img-responsive"
+                     alt="Generic placeholder thumbnail">
+                <h4>Mrs.dan003</h4>
+                <span class="text-muted">beautiful</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 placeholder">
+                <img src="/static/img/yidan.JPEG" width="200" height="200" class="img-responsive"
+                     alt="Generic placeholder thumbnail">
+                <h4>Mrs.dan004</h4>
+                <span class="text-muted">beautiful</span>
+            </div>
+        </div>
+        <form action="" method="post">
+            {% csrf_token %}
+            <p>作者：<input type="text" name="add_author"></p>
+            <p>
+                <select name="author_book" multiple>
+                    {% for book in all_book %} {#获取book表对象#}
+                        <option value="{{ book.pk }}">{{ book.title }}</option>
+                    {% endfor %}
+                </select>
+            </p>
+            <p style="color: red">{{ error }}</p>
+            <button>提交</button>
+        </form>
+    </div>
+{% endblock %}

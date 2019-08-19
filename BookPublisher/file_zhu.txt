@@ -1,0 +1,12 @@
+# 会检测所有的app
+Python36 manage.py makemigrations  # 检测每个注册app下的model.py 记录model的变更记录
+
+# 会检测某一个app的变更记录（了解）
+Python36 manage.py makemigrations app名称 # 检测每个注册app下的model.py 记录model的变更记录（）
+
+Python36 manage.py migrate # 同步变更记录到数据库中
+# 推荐两条语句一起使用（migrate：迁移的意思）
+
+
+Python36 manage.py makemigrations
+Python36 manage.py migrate
